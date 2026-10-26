@@ -1,0 +1,59 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.gestioncontactos"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:2:5-69
+11-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:2:22-66
+12
+13    <application
+13-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:3:5-16:19
+14        android:allowBackup="true"
+14-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:4:9-35
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:label="Gestión de contactos"
+17-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:5:9-45
+18        android:supportsRtl="true"
+18-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:6:9-35
+19        android:testOnly="true"
+20        android:theme="@android:style/Theme.Material.Light.NoActionBar" >
+20-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:7:9-72
+21        <activity
+21-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:8:9-75
+22            android:name="com.example.gestioncontactos.CallActivity"
+22-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:8:19-47
+23            android:exported="false" />
+23-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:8:48-72
+24        <activity
+24-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:9:9-82
+25            android:name="com.example.gestioncontactos.ContactListActivity"
+25-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:9:19-54
+26            android:exported="false" />
+26-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:9:55-79
+27        <activity
+27-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:10:9-15:20
+28            android:name="com.example.gestioncontactos.MainActivity"
+28-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:10:19-47
+29            android:exported="true" >
+29-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:10:48-71
+30            <intent-filter>
+30-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:11:13-14:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:12:17-69
+31-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:12:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:13:17-77
+33-->C:\Users\USUARIO\Downloads\GestionContactos_Android 1\GestionContactos_Android (1)\app\src\main\AndroidManifest.xml:13:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>
